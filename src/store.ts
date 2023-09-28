@@ -72,8 +72,6 @@ export const useGame = create<GameState & GameActions>((set, get) => ({
 
             // All other live cells die in the next generation or stay dead.
             cell.alive = false
-
-            // TODO: Logic is a bit odd here :P
           })
         })
       })
